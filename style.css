@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header,#apresentacao,#cultivo,#desafios,#colheita{
+    margin: 5%;
+    padding: 10%;
+    display: flexbox;
+    text-align: center;
+    background-color: rgb(227, 247, 199);
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+#referencias{
+    padding: 5%;
+    font-size: 18px;
+}
+
+h2{
+    display: flexbox;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+footer{
+    margin-top: 10%;
+    padding: 10%;
+    background-color: black;
+    color: white;
+    display: flexbox;
+    text-align: center;
+}
